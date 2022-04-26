@@ -63,6 +63,10 @@ public class WordCount {
   }
 }
 
+// hadoop fs -put path/input.txt input.txt
+// hadoop jar wordcount.jar package.class intput.txt dir
+// hadoop fs -cat dir/part-r-00000
+
 
 create 'flight','finfo','fsch'
 put 'flight',1,'finfo:source','pune'
